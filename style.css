@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: b;
+}
+
+/* .container{
+    height: auto;
+    width: ;
+    background-image: linear-gradient(to right,blue,rgb(210, 50, 143));
+    margin-top: 500px; */
+
+.form {
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    max-width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    color: rgb(76, 76, 76);
+}
+
+.login {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.email {
+    margin-top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 35px;
+    width: 350px;
+    padding: 10px 5px;
+    background-color: rgb(231, 231, 231);
+    font-size: medium;
+}
+
+.password {
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 35px;
+    width: 350px;
+    padding: 10px 5px;
+    background-color: rgb(231, 231, 231);
+    font-size: medium;
+}
+
+.btn {
+    margin-top: 60px;
+    width: 350px;
+    border-radius: 2px;
+    height: 55px;
+    padding: 5px 10px;
+    font-size: medium;
+    background-color: rgb(228, 25, 6);
+    border: none;
+    font-weight: bold;
+    color: white
+}
+
+.forgot {
+    margin-right: 50px;
+    margin-top: 60px;
+    text-indent: 50px;
+    text-align: center;
+}
+
+.account {
+    margin-right: 50px;
+    margin-top: -10x;
+    text-indent: 50px;
+    text-align: center;
+}
+
+span {
+    color: rgb(228, 25, 6);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 21, 0);
+}
+
+body {
+    background-color: rgb(26, 26, 167);
+}
